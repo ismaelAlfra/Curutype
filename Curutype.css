@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.colorA {
+    background-color: #e45900ff;
+    color: black;
+}
+
+.colorB {
+    background-color: black;
+    color: #e45900ff;
+}
+
+.corpo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.container-descricao {
+    width: 45%;
+    height: 30%;
+    padding: 10%;
+}
+
+@font-face {
+    font-family: "Curutype";
+    src: url("./assets/fonts/Curutype.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Sawasdee";
+    src: url("./assets/fonts/Sawasdee.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Icon";
+    src: url("./assets/fonts/Icon.ttf") format("truetype");
+}
+
+.title {
+    font-size: 125px;
+    padding: 10px;
+}
+
+.fontA {
+    font-family: 'Curutype';
+}
+
+.fontB {
+    font-family: 'Sawasdee';
+    font-size: 20px;
+    padding: 10px;
+}
+
+.icon {
+    font-family: 'Icon';
+}
+
+.button {
+    width: auto;
+    height: 150px;
+    float: left;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    margin-left: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.mold {
+    font-size: 150px;
+    position: absolute;
+    z-index: -1;
+}
+
+.txtButton {
+    font-size: 28px;
+    transform: rotate(90deg);
+}
+
+.button:hover {
+    color: white;
+}
+
+.button:active {
+    color: black;
+}
+
+.alfabeto {
+    text-align: center;
+    font-size: 115px;
+    padding: 60px;
+    pointer-events: none;
+}
+
+.cores {
+    position: relative;
+    z-index: 1;
+    float: right;
+    right: 5%;
+    bottom: 10%;
+}
+
+.check {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.check:hover {
+    outline: solid 2px rgb(134, 134, 134);
+}
+
+.input {
+    width: 100%;
+    height: 50%;
+    font-family: 'Icon';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input input {
+    position: absolute;
+    z-index: 1;
+    background: none;
+    transform: rotate(90deg);
+    width: 250%;
+    height: 33%;
+    font-size: 120px;
+    text-align: center;
+    border: none;
+    transition: all 0.2s;
+}
+
+.contorno {
+    width: auto;
+    height: auto;
+    transform: rotate(-90deg);
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 850px;
+}
+
+.digite {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.textDigite {
+    width: 63%;
+    height: auto;
+    font-size: 30px;
+}
+
+#txt {
+    color: #e45900ff;
+}
+
+.cores2 {
+    position: relative;
+    z-index: 1;
+    float: right;
+    right: -28%;
+    bottom: -38%;
+}
+
+.check2 {
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.check2:hover {
+    outline: solid 1px rgb(134, 134, 134);
+}
+
+.contBut {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    width: 200px;
+    height: 70px;
+    margin-top: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.mold2 {
+    font-size: 200px;
+    transform: rotate(-90deg);
+    position: absolute;
+}
+
+.button2:hover {
+    color: white;
+}
+
+.button2:active {
+    color: #e45900ff;
+}
+
+.rodape {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.container-descricao a {
+    text-decoration: none;
+    color: black;
+}
+
+.contBut a {
+    text-decoration: none;
+    color: #e45900ff;
+}
+
+.rodape a {
+    color: #e45900ff;
+    transition: all 0.2s;
+}
+
+.rodape a:hover {
+    color: white;
+}
+
+.rodape a:active {
+    color: #e45900ff;
+}
+
+.myImages {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+#degrade {
+    z-index: 1;
+}
+
+#img1 {
+    animation-name: slide1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    z-index: 0;
+}
+
+#img2 {
+    animation-name: slide2;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    z-index: 0;
+}
+
+#img3 {
+    animation-name: slide3;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    z-index: 0;
+}
+
+@keyframes slide1 {
+    0% {
+        opacity: 0%;
+    }
+    10% {
+        opacity: 100%;
+    }
+    25% {
+        opacity: 100%;
+    }
+    30% {
+        opacity: 0%;
+    }
+    75% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        opacity: 0%;
+    }
+    25% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 100%;
+    }
+    55% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        opacity: 0%;
+    }
+    25% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    75% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+
+/* @keyframes slide3 {
+    0% {
+        opacity: 0%;
+    }
+    25% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    75% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+} */
